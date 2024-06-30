@@ -8,6 +8,5 @@ socket = SocketIO(app)
 def index():
     return render_template('test.html')
 
-
 if __name__ == '__main__':
     socket.run(app)
